@@ -1,0 +1,17 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="task in tasklist track by $index" ng-class='item' class="item"><label class="checkbox">
+		  <input id="checkbox" type="checkbox" name="checkbox" ng-model="task.completed" class="pull-left" ng-click="completeTask($index)"></label>
+					<span id="task" class="completed-{{task.completed}}">{{task.name}}</span>
+					<button  ng-click="deleteTask(tasklist.indexOf(task))">x</button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+	
+	<ion-footer-bar class="bar bar-footer item-input-inset">
+				<input type="text" name="add-task" class="addtask" placeholder="Add a new todoo!" ng-model="taskName" ng-keyup="addTask()">
+			<button class="btn btn-primary btn-md" ng-click="addTaskBtn(taskName)">+</button>
+	</ion-footer-bar>
+	
+</ion-view>

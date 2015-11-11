@@ -1,0 +1,10 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/brittanyserrador/Copy/algonquin/HTML5/multiview/platforms/ios/www/lib/ionic/js/angular/angular-animate.min.js",
+        "/Users/brittanyserrador/Copy/algonquin/HTML5/multiview/www/lib/ionic/js/ionic.min.js",
+        "/Users/brittanyserrador/Copy/algonquin/HTML5/multiview/www/lib/ionic/js/ionic.js",
+        "/Users/brittanyserrador/Copy/algonquin/HTML5/multiview/www/lib/ionic/js/ionic.bundle.min.js",
+        "/Users/brittanyserrador/Copy/algonquin/HTML5/multiview/www/js/controllers.js",
+        "/Users/brittanyserrador/Copy/algonquin/HTML5/multiview/www/js/services/services.js"
+    ]
+}
